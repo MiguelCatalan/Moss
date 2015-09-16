@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoResizeImageView">
+        <attr name="resize" format="enum">
+            <enum name="by_width" value="0" />
+            <enum name="by_height" value="1" />
+        </attr>
+        <attr name="ratio" format="float">
+        </attr>
+    </declare-styleable>
+</resources>

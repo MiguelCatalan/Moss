@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="activity_books_margins">@dimen/activity_horizontal_margin</dimen>
+
+    <dimen name="item_book_width">190dp</dimen>
+    <dimen name="item_book_height">300dp</dimen>
+    <dimen name="activity_books_background_view_height">196dp</dimen>
+
+    <integer name="number_items_grid">2</integer>
+
+    <dimen name="item_book_height_list">160dp</dimen>
+</resources>

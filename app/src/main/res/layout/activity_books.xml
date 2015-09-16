@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BooksActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/activity_books_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingTop="?android:attr/actionBarSize" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/activity_books_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/theme_primary"
+            android:minHeight="?attr/actionBarSize">
+
+            <com.miguelcatalan.android.views.custom_views.LCDTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/theme_icons"
+                android:textSize="@dimen/text_size_xxlarge" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <com.miguelcatalan.android.views.custom_views.MaterialSearchView
+            android:id="@+id/search_view"
+            style="@style/MaterialSearchViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:minHeight="?attr/actionBarSize" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/activity_books_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:visibility="gone" />
+
+</FrameLayout>

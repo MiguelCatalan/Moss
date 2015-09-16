@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Moss</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_book_detail">BookDetailActivity</string>
+
+    <string name="detail_header_author">Authors</string>
+    <string name="detail_header_isbn">ISBN</string>
+    <string name="detail_header_publisher">Publisher</string>
+    <string name="detail_header_release">Publication date</string>
+    <string name="detail_header_description">Description</string>
+</resources>
